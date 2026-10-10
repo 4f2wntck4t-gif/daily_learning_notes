@@ -1,0 +1,35 @@
+first view of for 
+
+#include<iostream>
+using namespace std;
+
+int main() {
+	for (int i = 0;i < 10  ; i++) {
+		cout << i << endl;
+	}
+	system("pause");
+	return 0;
+}
+
+for循环的三个分号分别表示：起始、限制、加号
+
+ for循环案例： 敲桌子游戏
+#include<iostream>
+using namespace std;
+
+int main() {
+	for (int i = 0;i <= 100  ; i++) {
+		int a = i % 10;
+		int b = i / 10;
+		if (a == 7 || b == 7 || i % 7 ==0) {
+			cout << "敲桌子" << endl;
+		}
+		else {
+			cout << i << endl;
+		}
+	}
+	system("pause");
+	return 0;
+}
+  
+ 
